@@ -1,0 +1,67 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.bg-logo{
+  background: url({{ url_for ('static', filename = '/static/forest_conserv.png') }});
+  background-size: 100% 100%;
+  height: 300px;
+  background-size: cover;
+
+
+}
+
+ meter{
+    /* Reset the default appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+            
+  margin: 0 auto 1em;
+  width: 100%;
+  height: .5em;
+    
+    /* Applicable only to Firefox */
+  background: none;
+  background-color: rgba(0,0,0,0.1);
+}
+
+meter::-webkit-meter-bar {
+  background: none;
+  background-color: rgba(0,0,0,0.1);
+}
+
+meter[value="0"]::-webkit-meter-optimum-value { background: #B80000; }
+meter[value="1"]::-webkit-meter-optimum-value { background: #D02525; }
+meter[value="2"]::-webkit-meter-optimum-value { background: #F05C42; }
+meter[value="3"]::-webkit-meter-optimum-value { background: #FFA21F; }
+meter[value="4"]::-webkit-meter-optimum-value { background: #F1CD17; }
+meter[value="5"]::-webkit-meter-optimum-value { background: #FACF61; }
+meter[value="6"]::-webkit-meter-optimum-value { background: #F1CD17; }
+meter[value="7"]::-webkit-meter-optimum-value { background: #D1EB11; }
+meter[value="8"]::-webkit-meter-optimum-value { background: #A6C927; }
+meter[value="9"]::-webkit-meter-optimum-value { background: #39CB08; }
+meter[value="10"]::-webkit-meter-optimum-value { background:#2D7D12; }
+
+meter[value="0"]::-moz-meter-bar { background: #B80000; }
+meter[value="1"]::-moz-meter-bar { background: #D02525; }
+meter[value="2"]::-moz-meter-bar { background: #F05C42; }
+meter[value="3"]::-moz-meter-bar { background: #FFA21F; }
+meter[value="4"]::-moz-meter-bar { background: #F1CD17; }
+meter[value="5"]::-moz-meter-bar { background: #FACF61; }
+meter[value="6"]::-moz-meter-bar { background: #F1CD17; }
+meter[value="7"]::-moz-meter-bar { background: #D1EB11; }
+meter[value="8"]::-moz-meter-bar { background: #A6C927; }
+meter[value="9"]::-moz-meter-bar { background: #39CB08; }
+meter[value="10"]::-moz-meter-bar { background:#2D7D12; }
+
